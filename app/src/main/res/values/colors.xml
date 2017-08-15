@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#FA7C20</color>
+    <color name="colorPrimaryDark">#FA7C20</color>
+    <color name="colorAccent">#FA7C20</color>
+
+    <color name="list_divider">#C8C8C8</color>
+    <color name="main_color">#FA7C20</color>
+    <color name="main_white_color">#FFFFFFFF</color>
+    <color name="main_common_gray">#aac6c6c6</color>
+    <color name="text_common_gray">#7e7e7e</color>
+    <color name="text_common_gray_deep">#435356</color>
+    <color name="text_common_gray_light">#b5b5b5</color>
+    <color name="text_common_white">#FFFFFFFF</color>
+
+</resources>
