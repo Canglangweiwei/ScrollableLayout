@@ -47,8 +47,7 @@ public class RecyclerViewGridSimpleFragment extends BaseFragment {
 
     public void initRecyclerView() {
         recyclerView.setOverScrollMode(View.OVER_SCROLL_NEVER);
-        GridLayoutManager mLayoutMgr = new GridLayoutManager(getActivity(), 3);
-        recyclerView.setLayoutManager(mLayoutMgr);
+        recyclerView.setLayoutManager(new GridLayoutManager(getActivity(), 2));
     }
 
     @Override
