@@ -56,5 +56,4 @@ public class AspectImageView extends ForegroundImageView {
                 ? Math.round((size - wp) / aspect) + hp
                 : Math.round((size - hp) * aspect) + wp;
     }
-
 }

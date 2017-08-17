@@ -1,7 +1,7 @@
 package com.scrollablelayout.simple.bean;
 
 
-
+@SuppressWarnings("ALL")
 public class RecyclerBean {
 
     private String title;

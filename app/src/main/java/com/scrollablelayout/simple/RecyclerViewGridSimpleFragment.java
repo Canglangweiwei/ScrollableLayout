@@ -13,13 +13,10 @@ import java.util.List;
 
 import butterknife.Bind;
 
-
 public class RecyclerViewGridSimpleFragment extends BaseFragment {
 
     @Bind(R.id.v_scroll)
     RecyclerView recyclerView;
-
-    private List<RecyclerBean> data;
 
     public static RecyclerViewGridSimpleFragment newInstance() {
         return new RecyclerViewGridSimpleFragment();
@@ -37,7 +34,7 @@ public class RecyclerViewGridSimpleFragment extends BaseFragment {
 
     @Override
     protected void initDatas() {
-        data = DataUtil.createItemList();
+        List<RecyclerBean> data = DataUtil.createItemList();
         PhotoAdapter recyclerAdapter = new PhotoAdapter();
         recyclerAdapter.setPhotos(data);
         recyclerView.setAdapter(recyclerAdapter);
@@ -61,9 +58,11 @@ public class RecyclerViewGridSimpleFragment extends BaseFragment {
 
     @Override
     public void pullToRefresh() {
+
     }
 
     @Override
     public void refreshComplete() {
+
     }
 }

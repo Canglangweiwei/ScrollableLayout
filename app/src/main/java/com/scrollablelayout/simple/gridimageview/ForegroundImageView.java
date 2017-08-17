@@ -18,7 +18,9 @@ import com.scrollablelayout.simple.R;
  * <p/>
  * From: https://gist.github.com/JakeWharton/0a251d67649305d84e8a
  */
+@SuppressWarnings("ALL")
 public class ForegroundImageView extends ImageView {
+
     private Drawable foreground;
 
     public ForegroundImageView(Context context) {
@@ -113,7 +115,6 @@ public class ForegroundImageView extends ImageView {
     @Override
     public void draw(@NonNull Canvas canvas) {
         super.draw(canvas);
-
         if (foreground != null) {
             foreground.draw(canvas);
         }

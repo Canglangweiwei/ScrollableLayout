@@ -1,6 +1,9 @@
 package com.scrollablelayout.simple.gridimageview;
 
-public  interface ClickListener {
+
+@SuppressWarnings("ALL")
+public interface ClickListener {
     void onClick(int index);
+
     void onLongClick(int index);
 }
