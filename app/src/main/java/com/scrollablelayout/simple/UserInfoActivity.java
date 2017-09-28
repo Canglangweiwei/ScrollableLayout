@@ -15,6 +15,7 @@ import android.widget.TextView;
 import com.scrollablelayout.ScrollableLayout;
 import com.scrollablelayout.simple.base.BaseActivity;
 import com.scrollablelayout.simple.base.BaseFragment;
+import com.scrollablelayout.simple.widget.CustomPtrHeader;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -122,6 +123,7 @@ public class UserInfoActivity extends BaseActivity
             }
         });
 
+        CustomPtrHeader header = new CustomPtrHeader(this, 1);
         pfl_root.setEnabledNextPtrAtOnce(true);
         pfl_root.setLastUpdateTimeRelateObject(this);
         pfl_root.setPtrHandler(this);
