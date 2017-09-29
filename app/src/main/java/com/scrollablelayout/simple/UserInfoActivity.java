@@ -128,6 +128,8 @@ public class UserInfoActivity extends BaseActivity
         pfl_root.setLastUpdateTimeRelateObject(this);
         pfl_root.setPtrHandler(this);
         pfl_root.setKeepHeaderWhenRefresh(true);
+        pfl_root.setHeaderView(header);
+        pfl_root.addPtrUIHandler(header);
 
         CommonFragementPagerAdapter commonFragementPagerAdapter = new CommonFragementPagerAdapter(getSupportFragmentManager());
         fragmentList.add(RecyclerViewSimpleFragment.newInstance());
